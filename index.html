@@ -9,10 +9,14 @@
   <body>
     <section class="top-container">
       <div class="profile-details-container">
-        <p data-testid="slackDisplayName">Abasifreke Sandy</p>
+        <p>
+          Slack Name:<span data-testid="slackDisplayName"></span>
+            Abasifreke Sandy</span
+          >
+        </p>
         <p>
           Slack Email:
-          <a href="#" data-testid="slackEmail">abasifrekesandy@gmail.com</a>
+          <a href="#" data-testid="slackEmail"> abasifrekesandy@gmail.com</a>
         </p>
         <p data-testid="currentTimeUTC" id="time"></p>
         <p id="day" data-testid="currentDay"></p>
@@ -95,15 +99,31 @@
       <h5>to learn more about hng</h5>
       <ul>
         <li>
-          <a href="https://hng.tech/learn" data-testid="hngLink"> HNG Internship</a>
+          <a
+            target="_blank"
+            href="https://hng.tech/learn"
+            data-testid="hngLink"
+          >
+            HNG Internship</a
+          >
         </li>
         <li>
-          <a href="https://keyword.dog" data-testid="keywordLink"> keyword dog </a>
-        </li>
-        <li
-          <a href="https://scrapeanyweb.site/" data-testid="scrapeanywebLink">
-            scrape any web site</a
+          <a
+            target="_blank"
+            href="https://keyword.dog"
+            data-testid="keywordLink"
           >
+            keyword dog
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://scrapeanyweb.site/"
+            data-testid="scrapeanywebLink"
+          >
+            scrape any web site
+          </a>
         </li>
       </ul>
     </footer>

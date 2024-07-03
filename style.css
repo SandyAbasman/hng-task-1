@@ -14,8 +14,8 @@ body {
 }
 
 a {
-  text-decoration: underline;
-  color: rgb(129, 129, 129);
+  text-decoration: none;
+  color: rgb(178, 173, 173);
 }
 
 .top-container {
