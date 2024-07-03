@@ -8,7 +8,7 @@
 }
 
 body {
-  padding: 0.1rem 20rem;
+  padding: 0.1rem 8rem;
   background-color: rgb(13, 13, 13);
   color: whitesmoke;
 }
@@ -61,7 +61,7 @@ a {
 }
 
 .mytechgoals-container h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   text-transform: capitalize;
 }
@@ -122,12 +122,28 @@ a {
 }
 
 @media screen and (max-width: 1200px) {
+  .top-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  body {
+    padding: 0 4rem;
+    background-color: rgb(13, 13, 13);
+    color: whitesmoke;
+  }
+  .cards_container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  .mytechgoals-container h2 {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
   body {
     width: 100%;
-    padding: 1rem 0;
+    padding: 0 1.1rem;
     background-color: rgb(13, 13, 13);
     color: whitesmoke;
   }
@@ -156,5 +172,8 @@ a {
   .proile-picture-container {
     width: 5rem;
     height: auto;
+  }
+  .mytechgoals-container h2 {
+    font-size: 0.8rem;
   }
 }
